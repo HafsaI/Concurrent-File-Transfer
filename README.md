@@ -17,20 +17,4 @@ threads and receives those chunks in n threads and writes each chunk to file.
     Server: gcc server.c -lpthread -lm
 Math.h and pthread.h are not a part of the standard C library, so had to link to it using -lpthread and -lm
 
-## How to Run
-Install the following libraries if you do not have them using pip on command prompt:-
-
-    pip install flask
-    pip install wtform
-    
-Once Installed run forms.py and interact with the GUI!
-  
-The Libraries used are:-
-
-    hashlib
-    pickle
-    random
-    csv
-    flask 
-    wtforms
 
