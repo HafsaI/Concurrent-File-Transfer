@@ -11,7 +11,7 @@ Server sends the file size that it is sending to the client. Client sends n thre
 opens file to read, creates n threads and sends the read file in n chunks to client. Client also creates n
 threads and receives those chunks in n threads and writes each chunk to file.
 
-## How to Compile
+## How to Compile on Linux Terminal
 
     Client: gcc -o c.o client.c -lpthread -lm
     Server: gcc server.c -lpthread -lm
